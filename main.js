@@ -20,3 +20,27 @@ console.log("Age type:", typeof age);
 console.log("Student status type:", typeof isStudent);
 
 
+// Task 7.2: Operators
+// Arithmetic operators
+const num1 = 20;
+const num2 = 6;
+
+console.log("Addition:", num1 + num2);
+console.log("Subtraction:", num1 - num2);
+console.log("Multiplication:", num1 * num2);
+console.log("Division:", num1 / num2);
+console.log("Remainder:", num1 % num2);
+console.log("Power:", num1 ** 2);
+
+// Comparison operators
+console.log("Is num1 greater than num2?", num1 > num2);
+console.log("Are the numbers equal?", num1 === num2);
+console.log("Are the numbers different?", num1 !== num2);
+
+// Logical operators
+const hasPassed = true;
+const submittedWork = true;
+
+console.log("Passed and submitted:", hasPassed && submittedWork);
+console.log("Passed or submitted:", hasPassed || submittedWork);
+console.log("Has not passed:", !hasPassed);
